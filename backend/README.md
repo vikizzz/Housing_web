@@ -3,6 +3,8 @@
 ## Description
 Backend app for the housing website. 
 
+## Deploy
+Currently deployed at https://housing-website-backend.herokuapp.com/
 
 
 ## Google Doc
@@ -22,7 +24,8 @@ npm run dev
 ```
 
 ## Port
-localhost:5000
+deploy: https://housing-website-backend.herokuapp.com
+local development: localhost:5000
 
 ## Routes --- houses
 ### GET: 
