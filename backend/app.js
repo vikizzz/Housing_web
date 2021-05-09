@@ -10,9 +10,9 @@ var housesRouter = require('./routes/houses.route');  // added
 
 
 /*
-盛昕注: ACAO control. Not necessary for backend development.
+ACAO control. Not necessary for backend development.
 Don't know whether it's necessary for frontend to connect with backend
-
+*/
 // const frontEndURL = 'whatever the frontend url is'; // for deploy
 const frontEndURL = "*";    // for development
 let allowCrossDomain = function(req, res, next){
@@ -20,7 +20,7 @@ let allowCrossDomain = function(req, res, next){
     res.header('Access-Control-Allow-Headers', '*');
     next();
 }
-*/
+
 
 
 //app.use(logger('dev'));
